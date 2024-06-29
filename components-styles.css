@@ -213,7 +213,7 @@
 .tooltip-container {
     position: relative;
     display: flex;
-    width: 380px;
+    max-width: 380px;
     height: auto;
     background-color: #A9229B;
     border-radius: 8px;
@@ -276,7 +276,7 @@
     bottom: 1%;
     left: 1%;
     margin: 0 auto 0 0;
-    width: 380px;
+    max-width: 380px;
     display: flex;
     align-items: flex-start;
     gap: 15px;
