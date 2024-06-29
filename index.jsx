@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="header">
         <h1>Component Library</h1>
-        <a href="#"><img src={githubIcon} /></a>
+        <a href="https://github.com/AustejaSk/components-library"><img src={githubIcon} /></a>
       </div>
       {componentsExample}
     </>
