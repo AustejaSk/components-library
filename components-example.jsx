@@ -16,16 +16,16 @@ const componentsExample = (
       <h2>Banner Component:</h2>
       <p>Single Line:</p>
       <Banner
+        variant="neutral"
+        size="14px"
+        title="Update available"
+      />
+      <p>Multi Line:</p>
+      <Banner
         variant="error"
         size="14px"
         title="There is a problem with your application"
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam. "
-      />
-      <p>Multi Line:</p>
-      <Banner
-        variant="neutral"
-        size="14px"
-        title="Update available"
       />
       <h2>Card Component:</h2>
       <Card 
